@@ -6,3 +6,141 @@ Green: #00B172
 White: #FFF
 
 */
+
+#navbar {
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    background-color: white;
+    margin-bottom: 450px;
+    width:100%;
+}
+
+.logo{
+    width: 110px;
+    height:30px;
+}
+
+.item {
+    margin-right: 8px;
+    font-size: small;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+h1,h2{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-weight: 100;
+    font-size: 18px;
+    width:450px;
+    text-align:center;
+}
+
+#div2{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+h4{
+    color:#00B172;
+    padding-top: 30px;
+    text-align: left;
+}
+
+.musicblock {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+}
+
+.description{
+    width:80%;
+    justify-content: center;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.img2{
+height:100px;
+width: 100px;  
+}
+
+#section3 {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    background-color: #00B172;
+    position: relative;
+}
+
+#text3 {
+    font-size: large;
+    color: white;
+    padding-left: 10px;
+    padding-right:30px;
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin-right: 100px;
+    margin-left: 0px;
+}
+
+
+#spotifyscreen {
+width:300px;
+padding-right:60px;
+padding-top: 60px;
+padding-bottom:50px;
+margin-top: 55px;
+}
+
+#whitelogo{
+   width: 200px;
+   position: absolute;
+   align-self: center;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+.par3 {
+    padding-right: 680px;
+}
+
+h5{
+    font-size: larger;
+}
+
+h6{
+    font-size:large;
+    font-weight: lighter;
+}
